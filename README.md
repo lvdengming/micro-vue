@@ -1,42 +1,19 @@
-# micro-vue
+<!--
+ * @Author: lvdengming@foxmail.com
+ * @Date: 2026-05-16 18:18:25
+ * @LastEditors: lvdengming@foxmail.com
+ * @LastEditTime: 2026-05-17 11:50:51
+-->
 
-This template should help get you started developing with Vue 3 in Vite.
+# MicroVue
 
-## Recommended IDE Setup
+微前端 Vue 子仓（Micro-frontend vue repository）
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 微前端主仓（Micro-frontend main repository）：[https://github.com/lvdengming/micro-main](https://github.com/lvdengming/micro-main)
+- 微前端 Angular 子仓（Micro-frontend Angular sub-repository）：[https://github.com/lvdengming/micro-angular](https://github.com/lvdengming/micro-angular)
+- 微前端 React 子仓（Micro-frontend React sub-repository）：[https://github.com/lvdengming/micro-react](https://github.com/lvdengming/micro-react)
 
-## Recommended Browser Setup
+## References
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
+- qiankun: [https://qiankun.umijs.org/zh/guide](https://qiankun.umijs.org/zh/guide)
+- DeepSeek - Vue3 Vite 改造 qiankun 子应用: [https://chat.deepseek.com/share/pm1r10b4373x62dgmw](https://chat.deepseek.com/share/pm1r10b4373x62dgmw)
